@@ -114,8 +114,9 @@ p{
     flex-direction: column;
 }
 
-
-
-
-
-
+.ttform{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin: 50px;
+}
