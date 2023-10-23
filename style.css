@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    background-color: #48473d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    height: auto;
+    width: 3rem;
+    margin: 10px;
+}
+.navbot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logimg{
+    height: auto;
+    width: 4rem;
+    margin: 10px;
+}
+.bot{
+    margin-inline: 40px;
+    text-decoration: none;
+    color: white;
+    border: black;
+}
