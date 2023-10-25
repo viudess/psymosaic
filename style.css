@@ -1,9 +1,12 @@
+/* index início */
 body{
     display: flex;
     flex-direction: column;
 }
 
 nav{
+    height: auto;
+    width: 100%;
     background-color: #48473d;
     display: flex;
     align-items: center;
@@ -20,7 +23,6 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: large;
 }
 
 .bot{
@@ -187,4 +189,63 @@ footer h1{
     justify-content: end;
     align-items: flex-end;
     transform: rotate(90deg);
+}
+
+/* index fim */
+/* contato início*/
+
+.contths{
+    margin: 10rem;
+    color: #2f2f2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.contths a{
+    text-decoration: none;
+    color: #2f2f2a;
+}
+
+/* contato fim*/
+/* sobre início*/
+
+.about{
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutban img{
+    height: auto;
+    width: 100%;
+}
+
+.duba{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.imgduba{
+    height: auto;
+    width: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.p1{
+    text-align: center;
+    font-size: x-large;
+}
+
+.p2{
+    text-align: center;
+    width: 100%; 
+    text-align: center; 
+    color: #48473D; 
+    font-size: 30px; 
+    font-family: Karla; 
+    font-weight: 400; 
+    word-wrap: break-word"
 }
