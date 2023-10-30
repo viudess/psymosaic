@@ -30,6 +30,7 @@ nav{
     text-decoration: none;
     color: white;
     border: black;
+    cursor: pointer;
 }
 
 footer{
@@ -147,6 +148,7 @@ footer h1{
     left: 79px; 
     top: 271px; 
     position: absolute;
+    cursor: pointer;
 }
 
 .btmcard{
@@ -224,14 +226,16 @@ footer h1{
 .duba{
     display: flex;
     flex-direction: row;
-
+    align-items: center;
+    margin-bottom: 30px;
 }
 
 .imgduba{
     height: auto;
-    width: 20rem;
+    width: 25rem;
     display: flex;
     flex-direction: column;
+    margin-right: 20px;
 }
 
 .p1{
@@ -241,11 +245,46 @@ footer h1{
 
 .p2{
     text-align: center;
-    width: 100%; 
-    text-align: center; 
-    color: #48473D; 
-    font-size: 30px; 
-    font-family: Karla; 
-    font-weight: 400; 
-    word-wrap: break-word"
+    width: 90%;
+    font-size: x-large;
+}
+
+.pgroup{
+    display: flex;
+    flex-direction: column;
+}
+
+.mainsobre{
+    margin-inline: 40px;
+}
+
+/* sobre fim*/
+/* perfil início*/
+
+.fila{
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    margin-left: 100px;
+
+}
+
+.filabot{
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+    font-size: x-small;
+    margin-bottom: 5px;
+}
+
+.line{
+    width: 2px;
+    height: 500px;
+    background-color: black;
+    margin-top: 40px;
+}
+
+.filina{
+    display: flex;
+    flex-direction: row;
 }
