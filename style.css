@@ -288,3 +288,33 @@ footer h1{
     display: flex;
     flex-direction: row;
 }
+
+/* sobre fim*/
+/* cad e log início*/
+
+.mainlog{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.decorlog{
+    height: 10rem;
+    width: auto;
+    margin: 30px;
+    margin-bottom: 70px;
+}
+
+.inputlog{
+    width: 30rem;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.bttlog{
+    width: 20rem;
+    height: 40px;
+    background-color: #48473D;
+    color: white;
+}
