@@ -1,7 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300&display=swap');
 /* index início */
 body{
     display: flex;
     flex-direction: column;
+    margin: 0;
+}
+
+body 
+    p,
+    div, 
+    h1, 
+    h2, 
+    h3 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p, div {
+    font-weight: 400;
 }
 
 nav{
@@ -122,7 +137,6 @@ footer h1{
     text-align: center; 
     color: white; 
     font-size: 22px; 
-    font-family: Karla; 
     font-weight: 700; 
     word-wrap: break-word;
 }
@@ -137,7 +151,6 @@ footer h1{
     text-align: center; 
     color: white; 
     font-size: 22px; 
-    font-family: Karla; 
     font-weight: 200; 
     word-wrap: break-word;
 }
@@ -170,8 +183,7 @@ footer h1{
     position: absolute; 
     text-align: center; 
     color: #48473D; 
-    font-size: 22px; 
-    font-family: Karla; 
+    font-size: 20px; 
     font-weight: 700; 
     word-wrap: break-word;
 }
@@ -318,3 +330,6 @@ footer h1{
     background-color: #48473D;
     color: white;
 }
+
+
+/* Login */
