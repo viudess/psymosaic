@@ -11,7 +11,9 @@ body
     div, 
     h1, 
     h2, 
-    h3 {
+    h3,
+    h4,
+    h5 {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -27,6 +29,11 @@ nav{
     align-items: center;
 }
 
+a{
+    text-decoration: none;
+    color: #2f2f2a;
+}
+
 .logo{
     height: auto;
     width: 3rem;
@@ -38,6 +45,11 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
 }
 
 .bot{
@@ -89,120 +101,6 @@ footer h1{
     align-items: center; 
     margin-top: 50px;
     font-size: 40px;
-}
-
-.cards{
-    margin: 100px;
-    margin-bottom: 120px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.cont4{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 30px;
-}
-
-.cont3{
-    display: flex;
-    flex-direction: row;
-}
-
-.contcard{
-    width: 254px; 
-    height: 313px; 
-    position: relative;
-    margin-inline: 20px;
-}
-
-.outcard{
-    width: 254px; 
-    height: 313px; 
-    left: 0px; 
-    top: 0px; 
-    position: absolute; 
-    background: #48473D; 
-    border-radius: 45px;
-}
-
-.namecard{
-    width: 247px; 
-    height: 47px; 
-    left: 3px; 
-    top: 24px; 
-    position: absolute; 
-    text-align: center; 
-    color: white; 
-    font-size: 22px; 
-    font-weight: 700; 
-    word-wrap: break-word;
-}
-
-.textcard{
-    width: 228px; 
-    height: 129px; 
-    left: 13px; 
-    top: 111px; 
-    position: absolute; 
-    display: flex;
-    text-align: center; 
-    color: white; 
-    font-size: 22px; 
-    font-weight: 200; 
-    word-wrap: break-word;
-}
-
-.idkcard{
-    width: 175px; 
-    height: 42px; 
-    left: 79px; 
-    top: 271px; 
-    position: absolute;
-    cursor: pointer;
-}
-
-.btmcard{
-    width: 175px; 
-    height: 42px; 
-    left: 0px; 
-    top: 0px; 
-    position: absolute; 
-    background: #B4CB92; 
-    border-top-left-radius: 50px; 
-    border-bottom-right-radius: 50px;
-}
-
-.namebtm{
-    width: 105px; 
-    height: 24px; 
-    left: 13px; 
-    top: 9px; 
-    position: absolute; 
-    text-align: center; 
-    color: #48473D; 
-    font-size: 20px; 
-    font-weight: 700; 
-    word-wrap: break-word;
-}
-
-.alincard{
-    width: 34px; 
-    height: 34px; 
-    left: 118px; 
-    top: 38px; 
-    position: absolute; 
-    transform: rotate(-90deg); 
-    transform-origin: 0 0;
-}
-
-.seta{
-    display: flex;
-    justify-content: end;
-    align-items: flex-end;
-    transform: rotate(90deg);
 }
 
 /* index fim */
@@ -315,21 +213,38 @@ footer h1{
 
 .mainlog{
     display: flex;
-    align-items: center;
+    flex-direction: row;
+}
+
+.imgdecor{
+    height: 40.7rem;
+    width: auto;
+}
+
+.mainlog h1{
+    font-size: 25px;
+}
+
+.contlog{
+    display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
+    margin-left: 15rem;
 }
 
 .decorlog{
-    height: 10rem;
+    height: 7rem;
     width: auto;
     margin: 30px;
-    margin-bottom: 70px;
 }
 
 .inputlog{
-    width: 30rem;
-    height: 30px;
+    width: 25rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
     margin-bottom: 20px;
 }
 
@@ -338,7 +253,11 @@ footer h1{
     height: 40px;
     background-color: #48473D;
     color: white;
+    border: 1px;
+    border-radius: 5px;
+    font-size: x-large;
+    cursor: pointer;
 }
 
 
-/* Login */
+/* cad e log fim */
