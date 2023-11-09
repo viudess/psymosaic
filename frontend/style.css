@@ -60,6 +60,27 @@ a{
     cursor: pointer;
 }
 
+.card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #48473D;
+    height: 313px;
+    width: 254px;
+    border-radius: 45px;
+    margin: 20px;
+    word-wrap: break-word;
+}
+
+.card h1{
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+}
+
 footer{
     background-color: #48473d;
     height: 437px;
@@ -206,6 +227,67 @@ footer h1{
     justify-content: start;
     align-items: center;
     flex-direction: column;
+}
+
+.perfil2{
+    margin: 40px;
+    margin-left: 18rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.perfil2 input{
+    width: 25rem;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.perfil2 h1{
+    margin-bottom: 70px;
+}
+
+.perfil3{
+    margin: 40px;
+    margin-left: 11rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.perfil3 p{
+    text-align: center;
+    width: 40rem;
+}
+
+.bttper{
+    width: 20rem;
+    height: 40px;
+    background-color: #48473D;
+    color: white;
+    border: 1px;
+    border-radius: 20px;
+    font-size: large;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.perfil4{
+    margin: 40px;
+    margin-left: 14rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.perfil4 h1{
+    margin-bottom: 80px;
 }
 
 /* perfil fim*/
