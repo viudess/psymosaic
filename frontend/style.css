@@ -13,7 +13,8 @@ body
     h2, 
     h3,
     h4,
-    h5 {
+    h5,
+    a {
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -60,12 +61,18 @@ a{
     cursor: pointer;
 }
 
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
 .card{
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: #48473D;
-    height: 313px;
+    height: 312px;
     width: 254px;
     border-radius: 45px;
     margin: 20px;
@@ -73,12 +80,34 @@ a{
 }
 
 .card h1{
-    display: flex;
-    align-items: center;
     font-size: 23px;
     text-align: center;
     color: white;
-    margin-top: 30px;
+    margin-top: 20px;
+}
+
+.card p{
+    font-size: 22px;
+    text-align: center;
+    color: white;
+}
+
+.cardbutt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 22px;
+    background-color: #B4CB92;
+    height: 42px;
+    width: 175px;
+    color: #48473d;
+    border-top-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+
+.buttdd{
+    margin-left: 78px;
 }
 
 footer{
