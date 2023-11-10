@@ -372,3 +372,30 @@ footer h1{
 
 
 /* cad e log fim */
+/* voluntario inicio */
+
+.volun{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    word-wrap: break-word;
+}
+
+.volun h1{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    width: 30rem;
+    text-align: center;
+}
+
+.volun p{
+    margin-bottom: 3rem;
+    font-size: 20px;
+    text-align: center;
+    width: 80%;
+}
+
+.volun a{
+    color: #2c73ff;
+}
