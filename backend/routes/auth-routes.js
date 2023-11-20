@@ -4,11 +4,8 @@ const jwt = require("jsonwebtoken");
 const User = require("../models/users");
 // registrando um usuaário
 router.post("/register", async(req, res) => {
-    console.log(req);
-    const name = req.body.name;
     const email = req.body.email;
     const password = req.body.password;
-    const confirmpassword = req.body.confirmpassword;
     //checando se todos os dados foram enviados
     if (email == null || password == null){
         console.log('aqui')

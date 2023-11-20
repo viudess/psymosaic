@@ -1,8 +1,9 @@
 /* 
     Faz o registro do usuário no banco de dados.
 */
-async function login() {
-    // Pega os campos da tela de login (login.html)
+async function register() {
+    console.log('shdfasbhdfasbjd')
+    // Pega os campos da tela de login (register.html)
     const emailField = document.getElementById('email_field');
     const passwordField = document.getElementById('password_field');
 
