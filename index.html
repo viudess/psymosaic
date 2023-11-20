@@ -155,13 +155,6 @@
                 <!-- Contact Section Form-->
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-xl-7">
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- * * SB Forms Contact Form * *-->
-                        <!-- * * * * * * * * * * * * * * *-->
-                        <!-- This form is pre-integrated with SB Forms.-->
-                        <!-- To make this form functional, sign up at-->
-                        <!-- https://startbootstrap.com/solution/contact-forms-->
-                        <!-- to get an API token!-->
                         <form id="contactForm" data-sb-form-api-token="API_TOKEN">
                             <!-- Name input-->
                             <div class="form-floating mb-3">
@@ -188,25 +181,14 @@
                                 <label for="message">Recado</label>
                                 <div class="invalid-feedback" data-sb-feedback="message:required">É necessário ter um texto.</div>
                             </div>
-                            <!-- Submit success message-->
-                            <!---->
-                            <!-- This is what your users will see when the form-->
-                            <!-- has successfully submitted-->
-                            <div class="d-none" id="submitSuccessMessage">
-                                <div class="text-center mb-3">
-                                    <div class="fw-bolder">Formulário completo</div>
-                                    To activate this form, sign up at
-                                    <br />
-                                    <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
-                                </div>
+                              <!-- Submit Button-->
+                              <div class="text-center mt-4">
+                                <a class="btn btn-xl btn-outline-secondary" href="">
+                                    <i class="me-0" id="submitButton" type="submit"></i>
+                                    Enviar
+                                </a>
                             </div>
-                            <!-- Submit error message-->
-                            <!---->
-                            <!-- This is what your users will see when there is-->
-                            <!-- an error submitting the form-->
-                            <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
-                            <!-- Submit Button-->
-                            <button class="btn btn-sucess btn-xl disabled" id="submitButton" type="submit">Enviar</button>
+                            
                         </form>
                     </div>
                 </div>
