@@ -45,27 +45,27 @@
                 <!-- Contact Section Form-->
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-xl-7">
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+                        <form id="contactForm">
                             <!-- Email address input-->
                             <div class="form-floating mb-3">
-                                <input class="form-control" id="email" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
+                                <input class="form-control" type="email" id="email_field" placeholder="name@example.com"/>
                                 <label for="email">Email</label>
                             </div>
-                             <!-- password address input-->
+
+                             <!-- Password address input-->
                              <div class="form-floating mb-3">
-                                <input class="form-control" id="password" type="password" placeholder="#######" data-sb-validations="required,password" />
+                                <input class="form-control" type="password" id="password_field" placeholder="name@example.com"/>
                                 <label for="password">Senha</label>
                             </div>
                             
                             <!-- Submit Button-->
                             <div class="text-center mt-4">
-                                <a class="btn btn-xl btn-outline-secondary" href="">
-                                    <i class="me-0" id="submitButton" type="submit"></i>
+                                <button class="btn btn-xl btn-outline-secondary" type="submit" onclick="register()">
+                                    <i class="me-0"></i>
                                     Cadastrar
-                                </a>
+                                </button>
                                 <a class="btn-xl" href="login.html">Já é cadastrado?</a>
                             </div>
-                            
                         </div>
                         </form>
                     </div>
@@ -77,10 +77,6 @@
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
           <!-- Core theme JS-->
           <script src="js/scripts.js"></script>
-          <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-          <!-- * *                               SB Forms JS                               * *-->
-          <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
-          <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
-          <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+          <script src="./login.js"></script>
       </body>
   </html>
