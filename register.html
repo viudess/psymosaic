@@ -7,7 +7,7 @@
         <meta name="author" content="" />
         <title>Psymosaic - ONG Saúde Mental</title>
         <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/img/portfolio/logo.png" />
+        <link rel="icon" type="image/x-icon" href="assets/img/portfolio/logopsysmall.png" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Register script import -->
@@ -22,7 +22,8 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav" >
             <div class="container">
-                <a class="navbar-brand" href="#page-top">Psymosaic</a>
+                <img src="assets/img/portfolio/logopsysmall.png" alt="" style="height: auto; width: 5%; margin-inline-end: 20px;">
+                <a class="navbar-brand" href="index.html">Psymosaic</a>
                 <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                     Menu
                     <i class="fas fa-bars"></i>
@@ -48,6 +49,13 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-8 col-xl-7">
                         <form id="contactForm">
+
+                            <div class="form-floating mb-3">
+                                <input class="form-control" id="name" type="text" placeholder="Enter your name..." data-sb-validations="required" />
+                                <label for="name">Nome completo</label>
+                                <div class="invalid-feedback" data-sb-feedback="name:required">É necessário ter um nome.</div>
+                            </div>
+
                             <!-- Email address input-->
                             <div class="form-floating mb-3">
                                 <input class="form-control" type="email" id="email_field" placeholder="name@example.com"/>
