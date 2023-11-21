@@ -28,53 +28,36 @@
                 </button>
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="perfil.html">Voltar</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="index.html">Voltar</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
-        <section class="masthead page-section" id="contact">
-            <div class="container">
-                <!-- Contact Section Heading-->
-                <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Log-in</h2>
+         <!-- Masthead-->
+        <header class="masthead text-secondary text-center">
+            <div class="container d-flex align-items-center flex-column">
+                <!-- Masthead Heading-->
+                <h1 class="masthead-heading text-uppercase mb-0">Consulta com Psicólogo</h1>
                 <!-- Icon Divider-->
-                <div class="divider-custom">
+                <div class="divider-custom divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-line"></div>
                 </div>
-                <!-- Contact Section Form-->
-                <div class="row justify-content-center">
-                    <div class="col-lg-8 col-xl-7">
-                        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
-                            <!-- Email address input-->
-                            <div class="form-floating mb-3">
-                                <input class="form-control" id="email_field" type="email" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="email">Email</label>
-                            </div>
-                             <!-- password address input-->
-                             <div class="form-floating mb-3">
-                                <input class="form-control" id="password_field" type="password" placeholder="name@example.com" data-sb-validations="required,email" />
-                                <label for="password">Senha</label>
-                            </div>
-                            <!-- Submit Button-->
-                            <div class="text-center mt-4">
-                                <button class="btn btn-xl btn-outline-secondary" onclick="login()" style="margin-bottom: 25px;">
-                                    <i id="submitButton" type="submit"></i>
-                                    Entrar
-                                </button>
-                                <br>
-                            <a class="btn-xl" href="register.html">Não é cadastrado?</a>
-                            <a class="btn-xl" href="index.html">Esqueceu a senha?</a>
-                            </div>
-                        </div>
-                        </form>
-                    </div>
-                </div>
+                <!-- Masthead Subheading-->
+                <p class="masthead-subheading font-weight-light mb-5">Agende ou aguarde na fila para uma consulta online com um psicólogo.</p>
+                 <a class="btn btn-secondary mb-4" data-bs-dismiss="modal">
+                <i class="fa-fw"></i>
+                Marcar/acessar consulta agendada
+                </a>
+                <a class="btn btn-secondary" data-bs-dismiss="modal">
+                    <i class="fa-fw"></i>   
+                    Encaixe
+                </a>
             </div>
-        </section>
+           
 
-          <!-- Bootstrap core JS-->
+            <!-- Bootstrap core JS-->
           <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
           <!-- Core theme JS-->
           <script src="js/scripts.js"></script>
